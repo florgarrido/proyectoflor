@@ -1,9 +1,20 @@
-h2 {
-    color: green; }
-  
-  .msj, .msjError, .msjBienvenida {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px; }
+$colorLetra: red;
+$anchoDiv: 50vw - 10vw;
+$imgFondo: "img-1.jpg";
+$colorPaletaUno: blue;
+
+
+
+@mixin contenedores( $ancho , $alto , $display , $colorFondo){
+
+
+    display: $display;
+    @if $display == grid{
+        grid-template-columns: ;
+    }
+
+    width: $ancho;
+    height: $alto;
+    background-color: $colorFondo;
+
+}

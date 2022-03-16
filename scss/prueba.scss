@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 *{
     margin:0;
     padding:0;
@@ -242,6 +244,8 @@ footer nav ul a{
     text-decoration:none;
 }
 
+
+
 /*Responsive*/
 /*SM*/
 @media only screen and (max-width: 600px){
@@ -320,3 +324,5 @@ nav{
 
 
 }
+
+
